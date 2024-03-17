@@ -1,6 +1,7 @@
 trigger : 
 - main
-pool: Default
+pool: 
+  name: Default
 variables:
   buildConfiguration: 'Release'
 steps:
