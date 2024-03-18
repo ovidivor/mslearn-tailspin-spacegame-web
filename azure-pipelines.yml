@@ -20,8 +20,8 @@ steps:
 - task: NodeTool@0
   displayName: 'Run Node install'
   inputs:
-  versionSpec: '14.x'
-  
+    versionSpec: '14.x'
+
 - task: Npm@1
   displayName: 'Run npm install'
   inputs:
